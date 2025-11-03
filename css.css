@@ -1,0 +1,279 @@
+body{
+    background-color: #262D39;
+}
+html, body {
+  margin: 0;       
+  padding: 0;
+}
+header img{
+    width: 140px;         
+    height: auto;         
+    position: absolute;   
+    top: 0;               
+    left: 0; 
+    margin-top: 10px;        
+    margin-left: 100px;     
+  }
+
+  nav {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex; 
+    align-items: center; 
+    margin-left: 400px;
+   margin-top: 100px;
+  }
+    
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 60px; 
+    margin-left: 50px; 
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #e0e0d5;
+    font-weight: lighter;
+    font-family: sans-serif; /*A CHANGER VOIR AVEC PROF*/
+    transition: color ease;
+  }
+  
+  nav a:hover {
+    color: #BD0000;
+  }
+
+  .bannière {
+    position: relative;
+    width: 100%;
+    height: 200px; /* Ajuste la hauteur selon ton besoin */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* centre verticalement */
+    align-items: center;     /* centre horizontalement */
+    text-align: center;
+  margin-top: 175px;
+    background-image : url("Images/imagefond.png");
+    height: 300px;
+   background-size: cover;
+    background-position: center; /* centre l'image */
+    background-repeat: no-repeat;
+  }
+  
+  .bannière h1{
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #e0e0d5; 
+    font-size: 55px;
+   
+  }
+  .bannière p {
+    color: #e0e0d5;  
+ font-family: sans-serif;
+ font-size: 40px;
+   
+  }
+
+  .bannière h1,
+.bannière p {
+  margin: 0;            /* supprime toute marge */
+  padding: 0;           /* supprime tout éventuel padding */
+  line-height: 1.6;       /* réduit la hauteur de ligne au strict minimum */
+}
+
+.bouton .btn {
+  display: inline-block;           /* Se comporte comme un bouton */
+  padding: 12px 30px;              /* Espace à l'intérieur */
+  background-color: #e0e0d5;       /* Couleur de fond */
+  color: #262D39;                    /* Couleur du texte */
+  text-decoration: none;           /* Supprime le soulignement du lien */
+font-family: sans-serif;
+font-weight: 500;
+  border-radius: 8px;             /* Coins arrondis */  
+margin-top: 50px; 
+}
+.bouton {
+  text-align: center; /* Centre horizontalement le contenu du div */
+}
+.btn:hover {
+  background-color: #BD0000;   /* Couleur quand on passe la souris dessus */
+}
+#ÀPROPOS p{
+  font-family: sans-serif;
+  margin-top: 80px;
+    font-weight: bolder;
+    color: #e0e0d5; 
+    font-size: 55px;
+    text-align: center
+}
+.icones-section {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 150px;                       
+  margin-top: 10px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.icones-section .icone {
+  max-width: 250px;
+  color: #e0e0d5;
+  font-family: sans-serif;
+}
+
+.icones-section i {
+  font-size: 60px;                  
+  margin-bottom: 20px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+/* Animation au survol */
+.icones-section .icone:hover i {
+  transform: scale(1.2);
+}
+
+.icones-section h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+
+.icones-section p {
+  font-size: 12px;
+  color: #c5c5b5;
+}
+#GALERIE p{
+  font-family: sans-serif;
+  margin-top: 40px;
+    font-weight: bolder;
+    color: #e0e0d5; 
+    font-size: 55px;
+    text-align: center
+}
+.galerie-section{
+  font-family: sans-serif;
+  color: #e0e0d5; 
+  margin-left: 190px;
+}
+
+.galerie-oeuvres {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-top: 30px;
+}
+
+.oeuvre {
+  color: #e0e0d5; 
+  text-align: left;
+  border-radius: 10px;
+  padding: 15px;
+  width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.oeuvre img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.oeuvre:hover {
+  transform: scale(1.03);
+}
+
+.oeuvre h3 {
+  font-family: sans-serif;
+  font-weight: 500;
+}
+.oeuvre p {
+  font-family: sans-serif;
+  font-style: italic;
+  color: #e0e0d5; 
+  margin-top : -10px;
+
+}
+
+
+#ÉVÉNEMENTS {
+  background-color: #262D39;
+  color: #e0e0d5; 
+  padding: 80px 0;
+  text-align: center;
+}
+
+#ÉVÉNEMENTS h2 {
+  font-family : sans-serif;
+  margin-bottom: 60px;
+  font-size: 55px;
+}
+
+
+#ÉVÉNEMENTS .accent {
+  background-color:#e0e0d5; 
+  color: #262D39;
+  padding: 5px 10px;
+}
+
+/* --- CONTENEUR D'ÉVÉNEMENTS --- */
+.event {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+
+.evenement {
+  background-color: #e0e0d5; 
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  overflow: hidden;
+  width: 350px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.evenement:hover {
+  transform: translateY(-5px);
+}
+
+.evenement img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+.info-événements {
+  font-family : sans-serif;
+  padding: 15px 20px;
+  color: #262D39;
+}
+.info-événements h3 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.info-événements .sous-texte {
+  color: #262D39;
+  font-style: italic;
+  font-size: smaller;
+  margin-left: 10px;
+
+}
+
+.info-événements .details {
+  color: #262D39;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 20px;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+
