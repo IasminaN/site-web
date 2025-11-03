@@ -50,17 +50,17 @@ header img{
   .bannière {
     position: relative;
     width: 100%;
-    height: 200px; /* Ajuste la hauteur selon ton besoin */
+    height: 200px; 
     display: flex;
     flex-direction: column;
-    justify-content: center; /* centre verticalement */
-    align-items: center;     /* centre horizontalement */
+    justify-content: center; 
+    align-items: center;     
     text-align: center;
   margin-top: 175px;
     background-image : url("Images/imagefond.png");
     height: 300px;
    background-size: cover;
-    background-position: center; /* centre l'image */
+    background-position: center; 
     background-repeat: no-repeat;
   }
   
@@ -80,27 +80,27 @@ header img{
 
   .bannière h1,
 .bannière p {
-  margin: 0;            /* supprime toute marge */
-  padding: 0;           /* supprime tout éventuel padding */
-  line-height: 1.6;       /* réduit la hauteur de ligne au strict minimum */
+  margin: 0;           
+  padding: 0;           
+  line-height: 1.6;      
 }
 
 .bouton .btn {
-  display: inline-block;           /* Se comporte comme un bouton */
-  padding: 12px 30px;              /* Espace à l'intérieur */
-  background-color: #e0e0d5;       /* Couleur de fond */
-  color: #262D39;                    /* Couleur du texte */
-  text-decoration: none;           /* Supprime le soulignement du lien */
+  display: inline-block;           
+  padding: 12px 30px;              
+  background-color: #e0e0d5;       
+  color: #262D39;                    
+  text-decoration: none;           
 font-family: sans-serif;
 font-weight: 500;
-  border-radius: 8px;             /* Coins arrondis */  
+  border-radius: 8px;             
 margin-top: 50px; 
 }
 .bouton {
-  text-align: center; /* Centre horizontalement le contenu du div */
+  text-align: center; 
 }
 .btn:hover {
-  background-color: #BD0000;   /* Couleur quand on passe la souris dessus */
+  background-color: #BD0000;   
 }
 #ÀPROPOS p{
   font-family: sans-serif;
@@ -132,7 +132,7 @@ margin-top: 50px;
   transition: transform 0.3s ease, color 0.3s ease;
 }
 
-/* Animation au survol */
+
 .icones-section .icone:hover i {
   transform: scale(1.2);
 }
@@ -221,7 +221,7 @@ margin-top: 50px;
   padding: 5px 10px;
 }
 
-/* --- CONTENEUR D'ÉVÉNEMENTS --- */
+
 .event {
   display: flex;
   justify-content: center;
